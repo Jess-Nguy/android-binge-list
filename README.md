@@ -11,4 +11,4 @@ Device tested on:
 - CPU/ABI: `x86_64` 
 
 
-My poorly instructed video of how it works and what I did for the code - https://youtu.be/kdZN74BiZVE
+My poorly constructed video of how it works and what I did for the code - https://youtu.be/kdZN74BiZVE
