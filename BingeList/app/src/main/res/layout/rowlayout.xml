@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/rowMovieTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rowPoster"
+        app:layout_constraintTop_toTopOf="@+id/rowPoster" />
+
+    <TextView
+        android:id="@+id/rowYear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/rowMovieTitle"
+        app:layout_constraintTop_toBottomOf="@+id/rowMovieTitle" />
+
+    <TextView
+        android:id="@+id/rowRating"
+        android:layout_width="270dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="2dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rowPoster"
+        app:layout_constraintTop_toBottomOf="@+id/rowYear" />
+
+    <TextView
+        android:id="@+id/rowComment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rowYear"
+        app:layout_constraintTop_toBottomOf="@+id/rowRating" />
+
+    <ImageView
+        android:id="@+id/rowPoster"
+        android:layout_width="139dp"
+        android:layout_height="186dp"
+        android:layout_marginEnd="2dp"
+        android:background="#777777"
+        app:layout_constraintEnd_toStartOf="@+id/rowMovieTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

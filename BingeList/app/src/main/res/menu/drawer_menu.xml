@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/browserMenuItem"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Browser" />
+        <item
+            android:id="@+id/favouriteMenuItem"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Favourites" />
+        <item
+            android:id="@+id/reviewMenuItem"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Reviews" />
+        <item
+            android:id="@+id/profileMenuItem"
+            android:icon="@android:drawable/sym_def_app_icon"
+            android:title="Profile" />
+    </group>
+</menu>
