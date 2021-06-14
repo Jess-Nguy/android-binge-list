@@ -28,5 +28,3 @@ My poorly constructed video of how it works and what I did for the code - https:
 
 `android-binge-list/BingeList/app/src/main/res/values`
 - path to values/string used
-
-test
